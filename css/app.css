@@ -14,13 +14,54 @@ img {
     max-width: 100%;
 }
 
+body {
+    background-color: #1E1E1E;
+    font-family: 'Dela Gothic One', cursive;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* .grid {
+h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+}
+
+.grid {
     display: grid;
-	gap: 10px;
+    gap: 10px;
 	grid-template-columns: repeat(5, 1fr);
-} */
+    padding: 10px;
+}
+
+.box, 
+.fizzbuzz,
+.fizz,
+.buzz{
+    background-color:#FFC125;
+    aspect-ratio: 1;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 32px;
+}
+
+.fizz{
+    background-color: #CA9000;
+}
+
+.buzz{
+    background-color: chocolate;
+}
+
+.fizzbuzz{
+    background-color: brown;
+}
